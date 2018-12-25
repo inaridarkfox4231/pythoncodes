@@ -31,7 +31,7 @@ print(y) # [1, 3, 5]
 # reduuce, map, filterは自作関数も使える。
 def func(n):
     if n % 3 == 0 or n % 10 == 3: return True
-    if n // 10 == 3 return True
+    if n // 10 == 3: return True
     return False
 
 x = range(100)
