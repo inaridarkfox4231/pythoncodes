@@ -6,7 +6,7 @@ import io,sys
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8')
 
-response = requests.get("https://twitter.com/foxydrove/status/1077649841495265280")
+response = requests.get("https://twitter.com/nanami_hanon/status/1084788662536044544")
 
 print(response.encoding)
 #response.encoding = response.apparent_encoding
